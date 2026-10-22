@@ -40,7 +40,7 @@ export interface MilestoneRow {
   ai_confidence_score: number;
   status:
     | "LOCKED"
-    | "AWAITING SUBMISSION"
+    | "AWAITING_SUBMISSION"
     | "AI_AUDITING"
     | "VERIFIED_PAID"
     | "REJECTED";

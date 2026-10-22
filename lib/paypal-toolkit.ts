@@ -101,7 +101,7 @@ export async function createEscrowOrder(params: {
   return {
     orderId: data.id as string,
     status: data.status as string,
-    approveLink: approveLink,
+    approveUrl: approveLink,
     raw: data,
   };
 }
